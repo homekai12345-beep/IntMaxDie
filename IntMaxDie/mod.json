@@ -1,0 +1,39 @@
+{
+    "name": "IntMaxDie",
+    "author": "You",
+    "version": "1.0.0",
+    "description": "One die with a 2,147,483,647 multiplier",
+    "dice": [
+        {
+            "ide": "intmax_die",
+            "rarity": 1,
+            "prio": 5,
+            "sprite": "sprites/intmax_die.png",
+            "faces": [
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "faces_desc": "[spr_dice_icon,0] x2147483647",
+            "tag": [
+                "faces_even"
+            ],
+            "kw": [
+                "face"
+            ],
+            "effect": {
+                "type": "mult_all",
+                "value": 2147483647
+            },
+            "title": "Int Max Die",
+            "description": "Gives a 2,147,483,647 multiplier."
+        }
+    ],
+    "rings": []
+}
